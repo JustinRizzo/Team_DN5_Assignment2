@@ -1,5 +1,5 @@
 How the Data Pipeline Was Built: A Step-by-Step Guide
-This document explains the process of creating the data pipeline using the pipeline_stores.py script. The goal was to take the stores.csv file from Google Cloud Storage, clean it up, and put it into a BigQuery table.
+This document explains the process of creating the data pipeline. The initial BigQuery dataset was created directly in the Google Cloud Platform (GCP) console, while the pipeline itself was defined in a Python script (pipeline_stores.py) and launched from a Google Colab notebook using Apache Beam. The goal was to take the stores.csv file from Google Cloud Storage, clean it up, and put it into a BigQuery table.
 
 Step 1: Setting Up the Configuration
 First, all the important settings were defined at the top of the script. This makes it easy to change things later without digging through the code.
@@ -44,4 +44,4 @@ Parse the data: For every line that was read, the pipeline runs our parse_stores
 
 Write to BigQuery: Finally, the cleaned-up data is written to our store_info table in BigQuery. We set it to WRITE_TRUNCATE, which means if the table already has data, it will be wiped clean before the new data is added. This is useful for re-running the pipeline to ensure you always have the latest version of the data.
 
-Once the script is run, it submits this plan to Google Cloud, which then starts a Dataflow job to carry out these steps.
+Once the script is written to a file within the Google Colab environment, it's executed with a simple command (!python pipeline_stores.py). This submits the pipeline plan to Google Cloud, which then launches a Dataflow job to carry out all the defined steps.
