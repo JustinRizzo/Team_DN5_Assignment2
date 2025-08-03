@@ -1,0 +1,43 @@
+Christopher Fischer
+DIVE Role: Extend
+
+Areas of Responsibility: Finalizing the report's narrative and ensuring its academic and professional rigor.
+
+Key Accomplishments & Impact:
+
+Authored a compelling conclusion that effectively summarized the project's findings and reiterated the value of the proposed solutions.
+
+Meticulously compiled and verified the footnote section, adding credibility and providing clear sourcing for all data and assertions presented in the report.
+
+Eric Molner
+DIVE Role: Validate
+
+Areas of Responsibility: Technical validation, cost analysis, and strategic planning for implementation.
+
+Key Accomplishments & Impact:
+
+Conducted a detailed GCP cost optimization analysis, identifying key areas for resource management that could lead to significant long-term savings.
+
+Developed clear and concise action items, translating complex analytical findings into a practical roadmap for the engineering team to execute.
+
+Justin Rizzo
+DIVE Role: Discover
+
+Areas of Responsibility: Foundational project setup, team support, and quality assurance.
+
+Key Accomplishments & Impact:
+
+Provided critical assistance in the pipeline build, troubleshooting issues and ensuring a stable development environment, which directly enabled teammates to meet their deadlines.
+
+Systematically organized project documentation and verified all deliverables, ensuring the final submission was coherent, complete, and met all quality standards.
+
+Sharon White
+DIVE Role: Investigate
+
+Areas of Responsibility: Initial research, data analysis, and communication of findings.
+
+Key Accomplishments & Impact:
+
+Drafted the foundational DIVE Analysis Report and introduction, setting the tone and direction for the entire project.
+
+Created a series of insightful data visualizations that distilled complex information into an easily digestible format, making the report's findings accessible and impactful for stakeholders.

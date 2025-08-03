@@ -1,0 +1,3 @@
+-- For time series model
+SELECT * FROM ML.FORECAST(MODEL `fischproj2.data_stores1.sales_forecast_model`,
+                          STRUCT(14 AS horizon));
