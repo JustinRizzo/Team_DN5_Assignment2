@@ -1,0 +1,2 @@
+-- Check model performance
+SELECT * FROM ML.EVALUATE(MODEL `fischproj2.data_stores1.sales_forecast_model`);
